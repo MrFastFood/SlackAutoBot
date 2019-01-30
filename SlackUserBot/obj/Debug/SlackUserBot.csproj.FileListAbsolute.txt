@@ -1,0 +1,10 @@
+C:\Projects\SlackAutoBot\SlackUserBot\bin\Debug\SlackUserBot.exe.config
+C:\Projects\SlackAutoBot\SlackUserBot\bin\Debug\SlackUserBot.exe
+C:\Projects\SlackAutoBot\SlackUserBot\bin\Debug\SlackUserBot.pdb
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.csprojAssemblyReference.cache
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.MainScreen.resources
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.Properties.Resources.resources
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.csproj.GenerateResource.cache
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.csproj.CoreCompileInputs.cache
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.exe
+C:\Projects\SlackAutoBot\SlackUserBot\obj\Debug\SlackUserBot.pdb
