@@ -1,7 +1,14 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SlackUserBot.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EndorsementsXML" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;Endorsements&gt;
+	&lt;Endorsements Author="Ampeross" URL="https://www.deviantart.com/ampeross" Description="Provided all the graphics used in this program. Thank you for being kind enough to permit your work to be free for non-commercial purposes."/&gt;
+&lt;/Endorsements</Value>
+    </Setting>
+    <Setting Name="Disclaimer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SLACK is not affiliated with this software and does not endorse this product. </Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

@@ -22,5 +22,10 @@ namespace SlackUserBot
             var label = (sender as Label);
             System.Diagnostics.Process.Start(label.Text);
         }
+
+        private void MainScreen_Load(object sender, EventArgs e)
+        {
+            lblDisclaimer.Text = Properties.Settings.Default.Disclaimer;
+        }
     }
 }

@@ -8,22 +8,41 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SlackUserBot.Properties
-{
-
-
+namespace SlackUserBot.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<Endorsements>
+	<Endorsements Author=""Ampeross"" URL=""https://www.deviantart.com/ampeross"" Description=""Provided all the graphics used in this program. Thank you for being kind enough to permit your work to be free for non-commercial purposes.""/>
+</Endorsements")]
+        public string EndorsementsXML {
+            get {
+                return ((string)(this["EndorsementsXML"]));
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("SLACK is not affiliated with this software and does not endorse this product. ")]
+        public string Disclaimer {
+            get {
+                return ((string)(this["Disclaimer"]));
+            }
+            set {
+                this["Disclaimer"] = value;
             }
         }
     }
